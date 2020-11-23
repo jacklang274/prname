@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
+      GITHUB_TOKEN: '${{ secrets.SECRET_TOKEN }}'
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
